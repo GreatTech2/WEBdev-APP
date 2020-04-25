@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.pr2{
+	background-image: url("../images/background.jpeg");
+	background-size: cover;
+	background-repeat:repeat;
+	
+}
+
+.con2 {
+    background-color: white;
+    position: absolute;
+	top: 1px;
+	left: 22%;
+    right: 22%;
+    bottom: -450%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    
+    font-family: monospace;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: monospace;
+    font-size: 110%;
+}
+
+
+a {
+    font-size: 110%;
+   font-family: monospace; 
+}
+
+.html {
+    height: 100%;
+  margin: auto;
+  width: 960px;
+      overflow: hidden;
+}
+
+
+.head  {
+   
+  display: block;
+  margin: 0 auto;
+  max-width:  60%; 
+}
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lawngreen;
+    font-size: 130%;
+    width: 100%
+  
+}
+
+li {
+    font-size: 110%;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color:darkgreen;
+}
+
+
+
+
+
+dropdown,
+.flyout {
+  position: relative;
+    
+}
+.dropdown:after {
+  content: "\25BC";
+  font-size: .5em;
+  display: none;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+    
+}
+.drop-nav,
+.flyout-nav {
+    
+    font-size: 70%;
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.dropdown:hover > .drop-nav,
+.flyout:hover > .flyout-nav {
+  display: block;
+}
+.flyout-nav {
+  left: 100%;
+  top: 0;
+}
+.flyout:hover a,
+.flyout-nav {
+  background: #395066;
+}
+
+
+footer {
+    background-color: white;
+    position: fixed;
+    top: 90%;
+    width: 50% ;
+    height: 19%;
+    border-style: solid;
+    border-color: lawngreen;
+     padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    position: absolute;
+    width: 99%;
+        left: 1%;
+}
+
+
+.what {
+    position: absolute;
+    max-width: 19%;
+    top: 17%;
+    left: 37%;
+    
+}
+
+#headwhat {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    right: 44%;
+    color: green;
+    
+}
+
+
+
+#info {
+    background-color: white;
+    position: absolute;
+    top: 25%;
+}
+
+h2 {
+    padding-top: 16%;
+    
+    padding-left: 40%;
+    color: green;
+    font-family: monospace;
+}
+
+iframe {
+   padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#pro {
+    padding-top: 20%;
+}
+
+footer .fot  {
+    font-size: 110%;
+    font-family: monospace;
+    padding-left: 50%;
+}   
+
+.rim {
+    border-left-width: thick;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 26%;
+     
+}
