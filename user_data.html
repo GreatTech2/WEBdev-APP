@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONTACTS USERDATA</title>
+        <link rel="stylesheet" href="css/layout6.css">
+    </head>
+
+<body class="pr2" id="primary">
+     <div class="con2">
+       
+       <header>
+            <img class="head" src="IMAGES/head.jpg"/>
+        
+        
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+            
+            
+        <li class="dropdown">
+            <a href="app_list.html">App's</a>
+                <ul class="drop-nav">
+            <li><a href="whatsapp.html">WHATAPP</a></li>
+           <li><a href="slack.html">SLACK</a></li>
+            <li><a href="facebook.html">FACEBOOK</a></li>
+             <li><a href="twitter.html">TWITTER</a></li>
+              <li><a href="youtube.html">YOUTUBE</a></li>     
+            <li><a href="tik_tok.html">TIK TOK</a></li>
+            <li><a href="reddit.html">REDDIT</a></li>
+            
+            </ul>
+            
+            
+            </li>
+            
+            
+        <li><a href="Contacts.html">Contacts</a></li>
+            <li><a href="resources.html">resources</a></li>
+        </ul>
+           
+            </header>
+         
+
+    </div>
+    
+    <h1>COMMENTS</h1>
+    
+    
+    
+    
+    
+    <div class="comm">
+    
+    
+        
+        <div id="userdata">
+            <h2>SUBMITED DATA</h2></div>
+    
+    <script>
+        const dataList = document.getElementById("userdata")
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            dataList.append(`${name}: ${value}`)
+            dataList.append(document.createElement('br'))
+        })  
+    
+    </script> 
+        
+        
+        
+        <footer>
+    <a>Created by: Bernard MacDonagh</a>
+        <a class="fot" href=site_map.html>site map</a>
+
+    </footer>
+        
+    
+    </div>
+    
+    
+    </body>
+    
+    
+    
+</html>
