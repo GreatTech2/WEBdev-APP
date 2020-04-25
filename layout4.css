@@ -1,0 +1,300 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../images/background.jpeg");
+	background-size: cover;
+	background-repeat: repeat;
+	
+}
+
+div {
+    background-color: white;
+    position: absolute;
+    height: 200%;
+	top: 1px;
+	left: 22%;
+    right: 22%;
+    bottom: -200%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.html {
+    height: 100%;
+  margin: auto;
+  width: 960px;
+      overflow: hidden;
+}
+
+p {
+    font-style: monospace;
+}
+
+
+.head  {
+   
+  display: block;
+  margin: 0 auto;
+  max-width:  60%; 
+}
+
+h1 {
+     position: absolute;
+    top: 60%;
+    right: 45%;
+    color: green;
+    padding-left: 36%;
+}
+
+.content {
+    position: absolute;
+    top: 68%;
+    right: 9%;
+    left: 9%
+}
+
+a {
+    font-family: monospace;
+}
+
+p {
+    font-size: 110%;
+    font-family: monospace;
+}
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lawngreen;
+    font-size: 130%;
+    width: 100%
+  
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color:darkgreen;
+}
+
+
+
+
+
+dropdown,
+.flyout {
+  position: relative;
+    
+}
+.dropdown:after {
+  content: "\25BC";
+  font-size: .5em;
+  display: none;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+    
+}
+.drop-nav,
+.flyout-nav {
+    
+    font-size: 70%;
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.dropdown:hover > .drop-nav,
+.flyout:hover > .flyout-nav {
+  display: block;
+}
+.flyout-nav {
+  left: 100%;
+  top: 0;
+}
+.flyout:hover a,
+.flyout-nav {
+  background: #395066;
+}
+
+footer {
+    font-family: monospace;
+    background-color: white;
+    position: fixed;
+    top: 90%;
+    width: 50% ;
+    height: 19%;
+    border-style: solid;
+    border-color: lawngreen;
+     padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    position: absolute;
+    width: 99%;
+        left: 1%;
+}
+
+
+
+
+label {
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form {
+    position: absolute;
+    top: 80%;
+    
+    
+    
+}
+
+
+.form-style-1 {
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    right: 20%;
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	
+}
+.form-style-1 li {
+    
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+  
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background-color: green;
+	padding: 8px 15px 8px 15px ;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #32CD32;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+fieldset {
+    color: black;
+}
+
+
+butten {
+    border-color: green;
+    background-color: red;
+}
+
+footer .fot  {
+    font-size: 110%;
+    font-family: monospace;
+    padding-left: 50%;
+}   
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 268px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
